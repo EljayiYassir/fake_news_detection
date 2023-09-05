@@ -5,9 +5,6 @@ __pycache__/
 # C extensions
 *.so
 
-#mlflow run
-models/mlruns/
-
 # Distribution / packaging
 .Python
 env/
@@ -90,3 +87,7 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+#mlflow run
+/models/mlruns/
+
