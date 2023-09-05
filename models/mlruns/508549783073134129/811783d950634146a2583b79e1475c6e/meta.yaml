@@ -1,0 +1,15 @@
+artifact_uri: /home/saitama/project_portfolio/fake_news_classification/notebooks/../models/mlruns/508549783073134129/811783d950634146a2583b79e1475c6e/artifacts
+end_time: 1693902963945
+entry_point_name: ''
+experiment_id: '508549783073134129'
+lifecycle_stage: active
+run_id: 811783d950634146a2583b79e1475c6e
+run_name: 'Decision Tree Classifier '
+run_uuid: 811783d950634146a2583b79e1475c6e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693902963884
+status: 3
+tags: []
+user_id: saitama

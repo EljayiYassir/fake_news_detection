@@ -1,0 +1,15 @@
+artifact_uri: /home/saitama/project_portfolio/fake_news_classification/notebooks/../models/mlruns/508549783073134129/1eace006756c4ea79f2bcb1a19c58b70/artifacts
+end_time: 1693865867612
+entry_point_name: ''
+experiment_id: '508549783073134129'
+lifecycle_stage: active
+run_id: 1eace006756c4ea79f2bcb1a19c58b70
+run_name: 'Baseline model: Logistic Regression '
+run_uuid: 1eace006756c4ea79f2bcb1a19c58b70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693865867569
+status: 4
+tags: []
+user_id: saitama

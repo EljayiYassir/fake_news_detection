@@ -1,0 +1,6 @@
+artifact_location: /home/saitama/project_portfolio/fake_news_classification/notebooks/../models/mlruns/508549783073134129
+creation_time: 1693854182473
+experiment_id: '508549783073134129'
+last_update_time: 1693854182473
+lifecycle_stage: active
+name: fake_news_predection

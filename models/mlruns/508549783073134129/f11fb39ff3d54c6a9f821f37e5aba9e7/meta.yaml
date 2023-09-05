@@ -1,0 +1,15 @@
+artifact_uri: /home/saitama/project_portfolio/fake_news_classification/notebooks/../models/mlruns/508549783073134129/f11fb39ff3d54c6a9f821f37e5aba9e7/artifacts
+end_time: 1693902856001
+entry_point_name: ''
+experiment_id: '508549783073134129'
+lifecycle_stage: active
+run_id: f11fb39ff3d54c6a9f821f37e5aba9e7
+run_name: ' Support Vector Classifier (SVM) '
+run_uuid: f11fb39ff3d54c6a9f821f37e5aba9e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693902855889
+status: 3
+tags: []
+user_id: saitama

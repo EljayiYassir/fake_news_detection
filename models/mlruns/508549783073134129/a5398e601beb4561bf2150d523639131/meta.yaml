@@ -1,0 +1,15 @@
+artifact_uri: /home/saitama/project_portfolio/fake_news_classification/notebooks/../models/mlruns/508549783073134129/a5398e601beb4561bf2150d523639131/artifacts
+end_time: 1693905667677
+entry_point_name: ''
+experiment_id: '508549783073134129'
+lifecycle_stage: active
+run_id: a5398e601beb4561bf2150d523639131
+run_name: 'XGboost Classifier '
+run_uuid: a5398e601beb4561bf2150d523639131
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1693905667624
+status: 3
+tags: []
+user_id: saitama
