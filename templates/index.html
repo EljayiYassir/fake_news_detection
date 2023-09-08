@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Fake News Detection</h1>
+        <h2>Related to the political dynamics and events within the United States</h2>
+    </header>
+    <main>
+        <section class="input-section">
+            <h2>Enter News Details</h2>
+            <form method="POST" action="/predict">
+                <div class="form-group">
+                    <label for="news_title">News Title:</label>
+                    <input type="text" name="news_title" id="news_title" required>
+                </div>
+                <div class="form-group">
+                    <label for="user_name">Your Name:</label>
+                    <input type="text" name="user_name" id="user_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="news_text">News Text:</label>
+                    <textarea name="news_text" id="news_text" rows="4" cols="50" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Detect Fake News">
+                </div>
+            </form>
+        </section>
+        <section class="prediction-section">
+            <h2>Prediction</h2>
+           
+            {% if image %}
+            <p style="text-align: center;">
+                <img src="static/img/{{ image }}" width=250 height=150  alt="">
+            </p>
+            {% endif %}
+
+            {% if prediction %}
+            <p>{{ prediction }}</p>
+            {% endif %}
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Fake News Detection</p>
+    </footer>
+</body>
+</html>
